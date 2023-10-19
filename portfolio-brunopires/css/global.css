@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: #32353d;
+}
+
+h1,
+h2,
+h3,
+p,
+h4 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

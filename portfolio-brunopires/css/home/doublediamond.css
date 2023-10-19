@@ -1,0 +1,53 @@
+.doublediamond-container {
+  background: #2c55b5;
+  color: white;
+  padding: 24px 40px 24px 40px;
+  margin: 0 auto;
+}
+
+.doublediamond-titulo {
+  max-width: 1440px;
+  padding: 8px;
+}
+
+.doublediamond h3 {
+  font-size: 1.9rem;
+  margin-bottom: 8px;
+}
+
+.doublediamond-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 8px 0px 8px 0px;
+  gap: 32px;
+}
+
+.doublediamond-lista span {
+  font-size: 1.25rem;
+  padding: 24px 24px;
+  background: white;
+  color: #32353d;
+  display: block;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 280px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.doublediamond-lista p {
+  max-width: max-content;
+}
+
+@media (max-width: 915px) {
+  .doublediamond-lista {
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .doublediamond-lista {
+    grid-template-columns: 1fr;
+  }
+}

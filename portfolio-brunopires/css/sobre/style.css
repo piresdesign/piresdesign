@@ -1,0 +1,182 @@
+@import "../global.css";
+@import "../home/header.css";
+@import "../home/footer.css";
+
+/* Titulo da interface */
+.pagina-titulo {
+  margin: 0 auto;
+  gap: 24px;
+  max-width: auto;
+  padding: 24px 40px;
+  text-align: center;
+  place-items: center;
+}
+
+.pagina-titulo h1 {
+  text-align: start;
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-bottom: 24px;
+}
+
+.pagina-titulo p {
+  text-align: start;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+
+.pagina-titulo img {
+  display: inline;
+}
+
+/* Conteúdo da interface */
+/* Imagem, texto e link */
+.sobre-bruno img {
+  display: inline;
+  margin-bottom: 24px;
+}
+
+.sobre-bruno-container {
+  max-width: 898px;
+  margin: 0 auto;
+  gap: 24px;
+  max-width: auto;
+  padding: 24px 40px;
+  text-align: start;
+  place-items: center;
+}
+
+.sobre-bruno p {
+  text-align: start;
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+
+.curriculo {
+  display: grid;
+  align-self: start;
+}
+
+.curriculo-botao {
+  color: #ffffff;
+  background: #316fff;
+  font-size: 1rem;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  border-radius: 0.25rem;
+  justify-self: start;
+}
+
+/* T-Shaped Designer */
+.tshaped-container {
+  margin: 0 auto;
+  gap: 24px;
+  max-width: auto;
+  padding: 24px 40px;
+  text-align: center;
+}
+
+.tshaped-img {
+  margin: 0 auto;
+  gap: 24px;
+  max-width: auto;
+  margin-bottom: 24px;
+  text-align: center;
+  max-width: 1242px;
+}
+
+.sobre-tshaped h2 {
+  text-align: start;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.sobre-tshaped p {
+  text-align: start;
+}
+
+.sobre-tshaped img {
+  display: inline;
+  margin-bottom: 24px;
+}
+
+/* O que me move? */
+.sobre-move-container {
+  margin: 0 auto;
+  gap: 24px;
+  max-width: auto;
+  padding: 24px 40px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.sobre-move h2 {
+  text-align: start;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.sobre-tshaped p {
+  text-align: start;
+}
+
+.sobre-move-itens {
+  place-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sobre-move-itens li {
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #316fff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  padding: 5px 10px;
+  margin-bottom: 24px;
+}
+
+.rodape-links p {
+  font-size: 1.5rem;
+}
+
+.curriculo {
+  place-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .sobre-move-itens li {
+    font-size: 1rem;
+  }
+  .pagina-titulo h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 865px) {
+  .pagina-titulo h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .pagina-titulo h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 494px) {
+  .sobre-tshaped img {
+    display: none;
+  }
+}

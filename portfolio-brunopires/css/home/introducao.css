@@ -1,0 +1,94 @@
+.introducao {
+  background: #2c55b5;
+}
+
+.introducao-container {
+  max-width: 1440px;
+  padding: 24px 88px 24px 88px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px 40px;
+  align-items: center;
+}
+
+.introducao h1 {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.125;
+  max-width: 20ch;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.introducao h1::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #32353d;
+  position: absolute;
+  display: block;
+  top: 108px;
+  left: 470px;
+}
+
+.introducao p {
+  color: white;
+  font-size: 1.9rem;
+  line-height: 1.125;
+}
+
+.introducao img {
+  border-radius: 40px;
+  max-width: auto;
+}
+
+@media (max-width: 1123px) {
+  .introducao h1::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 865px) {
+  .introducao h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao h1 {
+    font-size: 1.5rem;
+  }
+
+  .introducao p {
+    font-size: 1.2rem;
+  }
+
+  .introducao-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .introducao-container {
+    max-width: 1440px;
+    padding: 16px 24px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 457px) {
+  .introducao img {
+    height: 350px;
+    width: 350px;
+  }
+}
